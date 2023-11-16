@@ -291,3 +291,8 @@ textarea{
       
     }  
   }
+
+.greeting{
+    color: white;
+    background-color: black;
+}
