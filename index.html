@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css">
+    <script
+        src="https://kit.fontawesome.com/8d6b79b36f.js"
+        crossorigin="anonymous"
+        
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+<script src="script.js" defer> </script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <h1 class="web">Mi web</h1>        
+            <div id="logo1">
+                <a href="index.html"><i class="fa-solid fa-meteor"></i></a>
+            </div>
+            <nav>
+                <ul class="letras">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html" id="sobre">Acerca de mi</a></li>
+                    <li><a href="index.html">Trabajos</a></li>
+                    <li><a href="index.html">Servicios</a></li>
+                    <li><a href="index.html">Contacto</a></li>
+                </ul>  
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2 class="sobre">Acerca de mi</h2>
+                    <p class="parrafo7">¡Bienvenido a mi página! </p>
+                    <p class="parrafo2">Aquí, aprenderás más sobre mí.</p>
+                    <p class="parrafo1"> 
+                        Me llamo Jasson, nací en Colombia y vivo en Bogotá. Me gusta estar con mi familia y me gusta aprender. Me encantaría promover el emprendimiento de muchas personas por medio de la programación.</p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/retrato.jpeg" class="imagen1" alt="imagen-portada">                    
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src="img/img2.jpg" class="imagen2" alt="imagen de carrusel">   
+            </section>
+            <h2 class="seccion3">Trabajos</h2>
+            <section class="seccion3">
+                <div class="titulo3">
+                    <img src="/" class="imgs" alt="">
+                    <h3>Comida Favorita</h3>
+                    <p class="parrafo3">Mi comida favorita es la hamburguesa, pero tambien me gusta la pizza, las salchipapas. En cuanto a comidas de mi pais, me encantan el ajiaco y la bandeja paisa.</p>
+                    <a href="index.html" class="link">Saber mas</a>
+                </div>
+                <div class="titulo3">
+                    <img src="/img/imagen4.jpg" class="imgs" alt="">
+                    <h3>Pasatiempos</h3>
+                    <p class="parrafo3">Soy fanatico del futbol, cada fin de semana dedico varias de mis horas a practicar y jugar con mis amigos y conocidos.</p>
+                    <a href="index.html" class="link">Saber mas</a>
+                </div>
+                <div class="titulo3">
+                    <img src="/img/imagen5.jpg" class="imgs" alt="">
+                    <h3>Planes</h3>
+                    <p class="parrafo3">Me gusta planear y viajar con mi familia, es una actividad que me motiva y me proyecta para el proximo año.</p>
+                    <a href="index.html" class="link">Saber mas</a>
+                </div>
+            </section>
+            <section class="formulario">
+                <h2 class="contacto">Contacto</h2> 
+                <p><em>¡Esperamos tu consulta!</em></p>
+                <form action="" method="get" class="formulario" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" required/>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" required/>
+                    </div>
+                    <div class="form-row">
+                        <label for="mensaje" class="mensaje">Mensaje</label>
+                        <textarea class="mensaje" name="mensaje" required></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button>Enviar</button>
+                    </div>
+                    <p class="alertas" id="alertas"></p>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="asistente">
+                <a href="index.html"><i class="fa-solid fa-user"></i></a>
+            </div>
+            <div class="contacto">
+                <a href="index.html"><i class="fa-brands fa-instagram"></i></a>
+                <a href="index.html"><i class="fa-brands fa-facebook"></i></a>
+                <a href="index.html"><i class="fa-brands fa-youtube"></i></a>
+                <a href="index.html"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+            <div class="nombre">
+                <p> Jasson Ayala</p>
+            </div>
+            <div class="final">
+                <div class="pilitic">
+                    <p>Politica de privacidad |</p>
+                </div>
+                <div class="informa">
+                    <p>| Información legal</p>
+                    
+                </div>
+               
+            </div>
+        
+        </footer>
+    </div>
+</body>
+</html>
